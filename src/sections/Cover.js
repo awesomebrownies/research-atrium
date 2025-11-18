@@ -13,9 +13,9 @@ const Cover = () => {
     return (
     <div>
         <div className="parallax-deep">
-        <Parallax speed={-0.1}>
+        {/* <Parallax speed={-0.1}>
             <img className="name" src={Name}/>
-        </Parallax>
+        </Parallax> */}
         </div>
         <div className="parallax-far">
         <Parallax speed={-0.2}>

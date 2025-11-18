@@ -197,14 +197,14 @@
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(#869bb6, #ff9d00);
-  height: 95vh;
+  height: 50vh;
 }
 
 .parallax-far,
 .parallax-back {
   position: fixed;
   width: 100%;
-  padding-top: 95vh;
+  padding-top: 50vh;
 }
 .parallax-far { z-index: 2; }
 .parallax-back { z-index: 3; }
@@ -216,7 +216,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 95vh;
+  padding-top: 50vh;
 }
 .parallax-mid { z-index: 4; }
 .parallax-close { z-index: 5; }
@@ -225,13 +225,13 @@
   position: absolute;
   overflow: hidden;
   width: 100%;
-  padding-top: 95vh;
+  padding-top: 50vh;
   z-index: 6;
 }
 
 .parallax-projects {
   position: absolute;
-  margin-top: 95vh;
+  margin-top: 50vh;
   z-index: 7;
 }
 
