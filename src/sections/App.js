@@ -17,39 +17,39 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <div /*className="parallax"*/>
-          <div /*className="parallax__layer parallax__layer--deep"*/ style={{position: 'fixed', overflow: 'hidden', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: 'linear-gradient(#869bb6, #ff9d00)', height: '95vh'}}>
+        <div>
+          <div className="parallax-deep">
             <Parallax speed={-0.1}>
               <img className="name" src={Name}/>
             </Parallax>
           </div>
-          <div /*className="parallax__layer parallax__layer--far"*/ style={{position: 'fixed', width: '100%', paddingTop: '95vh', zIndex: '2'}}>
+          <div className="parallax-far">
             <Parallax speed={-0.2}>
-            <img src={Clouds} style={{display: 'flex', overflow: 'hidden', justifySelf: 'center', transform: 'translateX(-400px) translateY(-350px)', width: '3000px', height: '400px', filter: 'invert(25%) sepia()'}}/>
+              <img src={Clouds} className="clouds clouds-1" />
             </Parallax>
           </div>
 
-          <div /*className="parallax__layer parallax__layer--back"*/ style={{position: 'fixed', width: '100%', paddingTop: '95vh', zIndex: '3'}}>
+          <div className="parallax-back">
             <Parallax speed={-0.3}>
-            <img src={Clouds} style={{display: 'flex', overflow: 'hidden', justifySelf: 'center', transform: 'translateX(-600px) translateY(-300px)',  width: '3000px', height: '400px', filter: 'invert(5%) sepia()'}}/>
+              <img src={Clouds} className="clouds clouds-2" />
             </Parallax>
           </div>
-          <div /*className="parallax__layer parallax__layer--mid"*/ style={{position: 'fixed', overflow: 'hidden', width: '100%', display: 'flex', justifyContent: 'center', paddingTop: '95vh', zIndex: '4'}}>
+          <div className="parallax-mid">
             <Parallax speed={-0.45}>
-            <img src={FlagOnMountain} style={{width: '120vw', height: '120vw', maxWidth: '581.57px', maxHeight: '600px', transform: 'translateY(max(-119vw,-595px))'}} />
+              <img src={FlagOnMountain} className="flag-on-mountain" />
             </Parallax>
           </div>
 
-          <div /*className="parallax__layer parallax__layer--close"*/ style={{position: 'fixed', overflow: 'hidden', width: '100%', display: 'flex', justifyContent: 'center', paddingTop: '95vh', zIndex: '5'}}>
+          <div className="parallax-close">
             <Parallax speed={-0.6}>
-            <img src={MountainForeground} style={{width: '120vw', height: '120vw', maxWidth: '581.57px', maxHeight: '600px', filter: 'brightness(75%)', transform: 'translateY(max(-119vw,-595px))'}} />
+              <img src={MountainForeground} className="mountain-foreground" />
             </Parallax>
           </div>
 
-          <div /*className="parallax__layer parallax__layer--base"*/ style={{position: 'absolute', overflow: 'hidden', width: '100%', paddingTop: '95vh', zIndex: '6'}}>
-            <img src={Rocks} style={{width: '2000px', height: '100px', transform: 'translateY(-98px)'}} />
+          <div  className="parallax-base">
+            <img src={Rocks} className="rocks-img" />
           </div>
-          <div /*className="parallax__layer parallax__layer--base"*/ style={{position: 'absolute', marginTop: '95vh', zIndex: '7'}}> 
+          <div className="parallax-projects"> 
             <div className="app-projects">
               <ul className="project-body list">
                 <li>
@@ -104,9 +104,9 @@ class App extends Component {
                 </li>
               </ul>
 
-              <div style={{display: 'flex', flexDirection: 'row', paddingLeft: '5vw', paddingTop: '100px'}}>
-                <img src={MinecraftLogo} style={{height: '50px', width: '50px'}}/>
-                <div id="Server-Side_Mods" style={{fontSize:'30px', paddingLeft: '20px'}}>Server-Side Mods</div>
+              <div className="project-header-row">
+                <img src={MinecraftLogo} className="minecraft-logo" />
+                <div id="Server-Side_Mods" className="section-heading">Server-Side Mods</div>
               </div>
 
               <div className="project-section">

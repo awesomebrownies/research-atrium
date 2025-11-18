@@ -187,3 +187,96 @@
   padding-bottom: 10px;
   flex-wrap: wrap;
 }
+
+/* --- Added classes to replace inline styles from App.js --- */
+.parallax-deep {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#869bb6, #ff9d00);
+  height: 95vh;
+}
+
+.parallax-far,
+.parallax-back {
+  position: fixed;
+  width: 100%;
+  padding-top: 95vh;
+}
+.parallax-far { z-index: 2; }
+.parallax-back { z-index: 3; }
+
+.parallax-mid,
+.parallax-close {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 95vh;
+}
+.parallax-mid { z-index: 4; }
+.parallax-close { z-index: 5; }
+
+.parallax-base {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 95vh;
+  z-index: 6;
+}
+
+.parallax-projects {
+  position: absolute;
+  margin-top: 95vh;
+  z-index: 7;
+}
+
+.clouds { display: flex; overflow: hidden; justify-self: center; width: 3000px; height: 400px; }
+.clouds-1 { transform: translateX(-400px) translateY(-350px); filter: invert(25%) sepia(); }
+.clouds-2 { transform: translateX(-600px) translateY(-300px); filter: invert(5%) sepia(); }
+
+.flag-on-mountain {
+  width: 120vw;
+  height: 120vw;
+  max-width: 581.57px;
+  max-height: 600px;
+  transform: translateY(max(-119vw, -595px));
+}
+
+.mountain-foreground {
+  width: 120vw;
+  height: 120vw;
+  max-width: 581.57px;
+  max-height: 600px;
+  filter: brightness(75%);
+  transform: translateY(max(-119vw, -595px));
+}
+
+.rocks-img {
+  width: 2000px;
+  height: 100px;
+  transform: translateY(-98px);
+}
+
+.project-header-row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5vw;
+  padding-top: 100px;
+}
+.minecraft-logo { height: 50px; width: 50px; }
+.section-heading { font-size: 30px; padding-left: 20px; }
+
+.tag-darkorange { background-color: darkorange; }
+.tag-coral { background-color: coral; }
+.tag-darksalmon { background-color: darksalmon; }
+
+.project-body--italic { font-style: italic; }
+
+.email-row { display: flex; flex-direction: row; padding-top: 7px; }
+
+/* end added classes */
