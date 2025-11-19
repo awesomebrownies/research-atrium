@@ -13,29 +13,26 @@ const Cover = () => {
     return (
     <div>
         <div className="parallax-deep">
-        {/* <Parallax speed={-0.1}>
-            <img className="name" src={Name}/>
-        </Parallax> */}
         </div>
         <div className="parallax-far">
-        <Parallax speed={-0.2}>
+        <Parallax speed={-0.1}>
             <img src={Clouds} className="clouds clouds-1" />
         </Parallax>
         </div>
 
         <div className="parallax-back">
-        <Parallax speed={-0.3}>
+        <Parallax speed={-0.2}>
             <img src={Clouds} className="clouds clouds-2" />
         </Parallax>
         </div>
         <div className="parallax-mid">
-        <Parallax speed={-0.45}>
+        <Parallax speed={-0.5}>
             <img src={FlagOnMountain} className="flag-on-mountain" />
         </Parallax>
         </div>
 
         <div className="parallax-close">
-        <Parallax speed={-0.6}>
+        <Parallax speed={-0.9}>
             <img src={MountainForeground} className="mountain-foreground" />
         </Parallax>
         </div>
