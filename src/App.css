@@ -71,6 +71,13 @@
   color: #E0E0E0;
   padding-left: max(35px, 5vw);
   padding-right: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  height: 1vw;
+  padding-left: 10vw;
 }
 
 
@@ -83,6 +90,7 @@
 .list {
   list-style-type: none;
   text-align: left;
+  background-color: #171a1e;
 }
 
 .link {
