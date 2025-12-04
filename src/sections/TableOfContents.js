@@ -13,10 +13,10 @@ const TableOfContents = () => {
           number: "1.1",
           title: "Infiltration",
           children: [
-            {id: "Firearms", number: "1.1.1", title: "Firearms"},
-            {id: "Helicopters", number: "1.1.2", title: "Helicopters"},
-            {id: "Spatial_Interface", number: "1.1.3", title: "Spatial Interface"},
-            {id: "Screen_Effects", number: "1.1.4", title: "Screen Effects"}
+            {id: "firearms", number: "1.1.1", title: "Firearms"},
+            {id: "helicopters", number: "1.1.2", title: "Helicopters"},
+            {id: "spatial-interface", number: "1.1.3", title: "Spatial Interface"},
+            {id: "screen-effects", number: "1.1.4", title: "Screen Effects"}
           ]
         },
         {
@@ -24,7 +24,7 @@ const TableOfContents = () => {
           number: "1.2",
           title: "Project: MTF",
           children: [
-            {id: "Story", number: "1.2.1", title: "Story"}
+            {id: "story", number: "1.2.1", title: "Story"}
           ]
         },
         {
@@ -32,8 +32,8 @@ const TableOfContents = () => {
           number: "1.3",
           title: "Unsecured",
           children: [
-            {id: "Anomalies", number: "1.3.1", title: "Anomalies"},
-            {id: "Map", number: "1.3.2", title: "Map"}
+            {id: "anomalies", number: "1.3.1", title: "Anomalies"},
+            {id: "map", number: "1.3.2", title: "Map"}
           ]
         }
       ]
