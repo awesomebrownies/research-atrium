@@ -4,12 +4,12 @@ import '../index.css';
 const TableOfContents = () => {
   const tocData = [
     {
-      id: "Server-Side_Mods",
+      id: "server-side-mods",
       number: "1",
       title: "Server-Side Mods",
       children: [
         {
-          id: "Infiltration",
+          id: "infiltration",
           number: "1.1",
           title: "Infiltration",
           children: [
@@ -20,7 +20,7 @@ const TableOfContents = () => {
           ]
         },
         {
-          id: "Project:_MTF",
+          id: "project:-mtf",
           number: "1.2",
           title: "Project: MTF",
           children: [

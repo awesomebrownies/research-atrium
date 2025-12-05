@@ -4,11 +4,12 @@ import ReactMarkdown from "react-markdown";
 function MarkdownComponent(item) {
   const [markdownContent, setMarkdownContent] = useState("");
   
-  useEffect(() => {
-    fetch(`/markdown/${item.fileName}`)
-      .then((response) => response.text())
-      .then((text) => setMarkdownContent(text));
-  }, [item.fileName]);
+useEffect(() => {
+  fetch(`${process.env.PUBLIC_URL}/markdown/${item.fileName}`)
+    .then((response) => response.text())
+    .then((text) => setMarkdownContent(text))
+    .catch((err) => console.error("Error loading markdown:", err));
+}, [item.fileName]);
   
   return (
     <section>

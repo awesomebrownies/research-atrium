@@ -4,10 +4,12 @@ The game has several layers to it. The base layer, Class-D Prisoners, try to esc
 
 ## Anomalies
 
-The facility hosts a plethora of SCP's within the containment zones. This includes SCP-173 similar to the weeping angels —
-**SCP-682** as a intelligent dangerous indestructable reptile due to its regenerative abilities.
-**SCP-035** "The Possessive Mask" which animates and kills whoever puts it on.
-**SCP-914** as a scientist experimental favorite is a machine that allows objects to be put in to be upgraded or destroyed/mutated.
+The facility hosts a plethora of SCP's within the containment zones.
+
+- **SCP-173** similar to the weeping angels
+- **SCP-682** as a intelligent dangerous indestructable reptile due to its regenerative abilities.
+- **SCP-035** "The Possessive Mask" which animates and kills whoever puts it on.
+- **SCP-914** as a scientist experimental favorite is a machine that allows objects to be put in to be upgraded or destroyed/mutated.
 
 ## Map
 

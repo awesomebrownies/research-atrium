@@ -33,7 +33,7 @@ const mcProjectsData = [
     },
     {
         date: "OCTOBER 24 2021",
-        id: "Project:_MTF",
+        id: "project:-mtf",
         title: "Project: MTF",
         tags: "Java and Skript",
         fileName: "project:-mtf.md",
@@ -87,7 +87,7 @@ const Projects = () => {
         
         <div className="project-header-row">
         <img src={MinecraftLogo} className="minecraft-logo" />
-        <div id="Server-Side_Mods" className="section-heading">Server-Side Mods</div>
+        <div id="server-side-mods" className="section-heading">Server-Side Mods</div>
         </div>
 
         {mcProjectsData.map(renderItem)}
