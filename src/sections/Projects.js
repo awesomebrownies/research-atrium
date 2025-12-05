@@ -7,6 +7,8 @@ import rehypeRaw from 'rehype-raw';
 import MinecraftLogo from '../assets/images/minecraft_logo.png';
 import Antenna from '../assets/images/antenna.jpg';
 
+import GitHubRepoCard from './GitHubRepoCard';
+
 
 const esProjectsData = [
     {
@@ -16,6 +18,7 @@ const esProjectsData = [
         tags: "C++",
         fileName: "hid-workflow-emulator.md",
         theme: "comparator",
+        repository: "hid-workflow-emulator",
     }
 ]
 
@@ -60,6 +63,9 @@ const renderItem = (item) => {
 
             <div className="app-divider" />
             <div className="project-body">
+                {item.repository && (
+                    <GitHubRepoCard owner="awesomebrownies" repo={item.repository} />
+                )}
                 <MarkdownComponent rehypePlugins={[rehypeSlug, rehypeRaw]} fileName={item.fileName}/>
             </div>
         </div>
