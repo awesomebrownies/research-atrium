@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d3482d5.css",
-    "main.js": "/static/js/main.dc7d5f41.js",
+    "main.css": "/static/css/main.b707eb53.css",
+    "main.js": "/static/js/main.701ae1a7.js",
+    "static/media/Merriweather.ttf": "/static/media/Merriweather.22bd7c129c2ec0235599.ttf",
     "static/media/LinLibertine_RI.ttf": "/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
+    "static/media/clouds.png": "/static/media/clouds.306341d0fc92d2604a77.png",
     "static/media/JetBrainsMonoNL-Regular.ttf": "/static/media/JetBrainsMonoNL-Regular.432a7b1048bd216e8990.ttf",
-    "static/media/name.png": "/static/media/name.ba543be32c3ac380dade.png",
-    "static/media/foreground.png": "/static/media/foreground.a0e91424d7010c3a5e0b.png",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.b5742f857779c0562634.ttf",
     "static/media/mountain-foreground.png": "/static/media/mountain-foreground.90869b9f3ee062377962.png",
-    "static/media/bottom.png": "/static/media/bottom.0fefb7bda5bf9b0d5054.png",
     "static/media/flag-on-mountain.png": "/static/media/flag-on-mountain.9e68f391cdee6d12d589.png",
-    "static/media/OmbudsmanAlternate-6YvDq.otf": "/static/media/OmbudsmanAlternate-6YvDq.16cc09dbd9f5d34be1be.otf",
-    "static/media/clouds.png": "/static/media/clouds.5bf3e98d32c8d31dc6b7.png",
+    "static/media/foreground.png": "/static/media/foreground.adcd5d39d56c7d0cf297.png",
+    "static/media/antenna.jpg": "/static/media/antenna.95b989a2a6cc255a5f77.jpg",
+    "static/media/copper-golem.png": "/static/media/copper-golem.3dec1c2c5d9cfedb7cf6.png",
+    "static/media/comparator.png": "/static/media/comparator.ba62e17f97a572d261e4.png",
     "index.html": "/index.html",
-    "main.9d3482d5.css.map": "/static/css/main.9d3482d5.css.map",
-    "main.dc7d5f41.js.map": "/static/js/main.dc7d5f41.js.map"
+    "main.b707eb53.css.map": "/static/css/main.b707eb53.css.map",
+    "main.701ae1a7.js.map": "/static/js/main.701ae1a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d3482d5.css",
-    "static/js/main.dc7d5f41.js"
+    "static/css/main.b707eb53.css",
+    "static/js/main.701ae1a7.js"
   ]
 }
