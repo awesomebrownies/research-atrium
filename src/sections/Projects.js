@@ -5,9 +5,20 @@ import rehypeSlug from 'rehype-slug';
 import rehypeRaw from 'rehype-raw';
 
 import MinecraftLogo from '../assets/images/minecraft_logo.png';
+import Antenna from '../assets/images/antenna.jpg';
 
 
-const projectsData = [
+const esProjectsData = [
+    {
+        date: "OCTOBER 26 2025",
+        id: "hid-workflow-emulator",
+        title: "HID Workflow Emulator",
+        tags: "C++",
+        fileName: "hid-workflow-emulator.md"
+    }
+]
+
+const mcProjectsData = [
     {
         date: "NOVEMBER 26 2022",
         id: "Infiltration",
@@ -55,13 +66,21 @@ const renderItem = (item) => {
 
 const Projects = () => {
     return (
+        
         <div>
+        <div className="project-header-row">
+        <img src={Antenna} className="minecraft-logo" />
+        <div id="Embedded_Systems" className="section-heading">Embedded Systems</div>
+        </div>
+
+        {esProjectsData.map(renderItem)}
+        
         <div className="project-header-row">
         <img src={MinecraftLogo} className="minecraft-logo" />
         <div id="Server-Side_Mods" className="section-heading">Server-Side Mods</div>
         </div>
 
-        {projectsData.map(renderItem)}
+        {mcProjectsData.map(renderItem)}
 
         </div> 
     )
