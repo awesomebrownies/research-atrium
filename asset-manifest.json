@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b707eb53.css",
-    "main.js": "/static/js/main.701ae1a7.js",
-    "static/media/Merriweather.ttf": "/static/media/Merriweather.22bd7c129c2ec0235599.ttf",
-    "static/media/LinLibertine_RI.ttf": "/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
-    "static/media/clouds.png": "/static/media/clouds.306341d0fc92d2604a77.png",
-    "static/media/JetBrainsMonoNL-Regular.ttf": "/static/media/JetBrainsMonoNL-Regular.432a7b1048bd216e8990.ttf",
-    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.b5742f857779c0562634.ttf",
-    "static/media/mountain-foreground.png": "/static/media/mountain-foreground.90869b9f3ee062377962.png",
-    "static/media/flag-on-mountain.png": "/static/media/flag-on-mountain.9e68f391cdee6d12d589.png",
-    "static/media/foreground.png": "/static/media/foreground.adcd5d39d56c7d0cf297.png",
-    "static/media/antenna.jpg": "/static/media/antenna.95b989a2a6cc255a5f77.jpg",
-    "static/media/copper-golem.png": "/static/media/copper-golem.3dec1c2c5d9cfedb7cf6.png",
-    "static/media/comparator.png": "/static/media/comparator.ba62e17f97a572d261e4.png",
-    "index.html": "/index.html",
-    "main.b707eb53.css.map": "/static/css/main.b707eb53.css.map",
-    "main.701ae1a7.js.map": "/static/js/main.701ae1a7.js.map"
+    "main.css": "/research-atrium/static/css/main.4eda7ad1.css",
+    "main.js": "/research-atrium/static/js/main.15734183.js",
+    "static/media/Merriweather.ttf": "/research-atrium/static/media/Merriweather.22bd7c129c2ec0235599.ttf",
+    "static/media/LinLibertine_RI.ttf": "/research-atrium/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
+    "static/media/clouds.png": "/research-atrium/static/media/clouds.306341d0fc92d2604a77.png",
+    "static/media/JetBrainsMonoNL-Regular.ttf": "/research-atrium/static/media/JetBrainsMonoNL-Regular.432a7b1048bd216e8990.ttf",
+    "static/media/OpenSans-Regular.ttf": "/research-atrium/static/media/OpenSans-Regular.b5742f857779c0562634.ttf",
+    "static/media/mountain-foreground.png": "/research-atrium/static/media/mountain-foreground.90869b9f3ee062377962.png",
+    "static/media/flag-on-mountain.png": "/research-atrium/static/media/flag-on-mountain.9e68f391cdee6d12d589.png",
+    "static/media/foreground.png": "/research-atrium/static/media/foreground.adcd5d39d56c7d0cf297.png",
+    "static/media/antenna.jpg": "/research-atrium/static/media/antenna.95b989a2a6cc255a5f77.jpg",
+    "static/media/copper-golem.png": "/research-atrium/static/media/copper-golem.3dec1c2c5d9cfedb7cf6.png",
+    "static/media/comparator.png": "/research-atrium/static/media/comparator.ba62e17f97a572d261e4.png",
+    "index.html": "/research-atrium/index.html",
+    "main.4eda7ad1.css.map": "/research-atrium/static/css/main.4eda7ad1.css.map",
+    "main.15734183.js.map": "/research-atrium/static/js/main.15734183.js.map"
   },
   "entrypoints": [
-    "static/css/main.b707eb53.css",
-    "static/js/main.701ae1a7.js"
+    "static/css/main.4eda7ad1.css",
+    "static/js/main.15734183.js"
   ]
 }
