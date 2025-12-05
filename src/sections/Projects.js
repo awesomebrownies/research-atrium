@@ -25,7 +25,7 @@ const esProjectsData = [
 const mcProjectsData = [
     {
         date: "NOVEMBER 26 2022",
-        id: "Infiltration",
+        id: "infiltration",
         title: "Infiltration",
         tags: "Java, GLSL, and MongoDB",
         fileName: "infiltration.md",
