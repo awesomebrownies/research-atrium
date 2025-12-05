@@ -16,6 +16,11 @@
   border-style: solid;
   border-left: none;
   border-right: none;
+
+    /* Add repeating background */
+  background-image: url('assets/images/copper-golem.png'); /* relative path from CSS file */
+  background-repeat: repeat;
+  background-position: top left;
 }
 
 .vertical-text {
