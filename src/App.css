@@ -16,8 +16,17 @@
   border-style: solid;
   border-left: none;
   border-right: none;
+}
 
-  background-image: url('assets/images/copper-golem.png'); /* relative path from CSS file */
+.project-section--copper-golem {
+  background-image: url('assets/images/copper-golem.png');
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+.project-section--comparator {
+
+  background-image: url('assets/images/comparator.png');
   background-repeat: repeat;
   background-position: top left;
 }
@@ -310,7 +319,7 @@
   padding-top: 100px;
 }
 .minecraft-logo { height: 50px; width: 50px; }
-.section-heading { font-size: 30px; padding-left: 20px; }
+.section-heading { font-size: 30px; padding-left: 20px;  font-family: OpenSans}
 
 .tag-darkorange { background-color: darkorange; }
 .tag-coral { background-color: coral; }

@@ -14,7 +14,8 @@ const esProjectsData = [
         id: "hid-workflow-emulator",
         title: "HID Workflow Emulator",
         tags: "C++",
-        fileName: "hid-workflow-emulator.md"
+        fileName: "hid-workflow-emulator.md",
+        theme: "comparator",
     }
 ]
 
@@ -24,27 +25,30 @@ const mcProjectsData = [
         id: "Infiltration",
         title: "Infiltration",
         tags: "Java, GLSL, and MongoDB",
-        fileName: "infiltration.md"
+        fileName: "infiltration.md",
+        theme: "copper-golem",
     },
     {
         date: "OCTOBER 24 2021",
         id: "Project:_MTF",
         title: "Project: MTF",
         tags: "Java and Skript",
-        fileName: "project:-mtf.md"
+        fileName: "project:-mtf.md",
+        theme: "copper-golem",
     },
     {
         date: "DECEMBER 12 2020",
         id: "Unsecured",
         title: "Unsecured",
         tags: "Skript",
-        fileName: "unsecured.md"
+        fileName: "unsecured.md",
+        theme: "copper-golem",
     }
 ]
 
 const renderItem = (item) => {
     return (
-        <div className="project-section">
+        <div className={`project-section project-section--${item.theme}`}>
         <div className="vertical-text">{item.date}</div>
         <div className="content-section">
             <div className="title-section">
