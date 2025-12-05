@@ -1,6 +1,8 @@
 A gamemode aimed to bring a tactical side to combat.
 
-The game splits players into groups of squads sub-divided into fireteams.Squad Leaders communicate with each other to coordinate attacks and hold positions in objectives. The game favors teamwork and will punish players who do not work together. Several alpha and beta tests have been conducted with player feedback being implemented into a roughly 2-week cycle while in active development.
+The game splits players into groups of squads sub-divided into fireteams. Squad Leaders communicate with each other to coordinate attacks and hold positions in objectives. The system favors teamwork and will punish players who do not work together. Several alpha and beta tests have been conducted with player feedback being implemented into a roughly 2-week cycle while in active development.
+
+![Two opposite factions pointing firearms at one another inside of an aircraft bunker](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d76fc021ba0238788646551af94477cdd8625129_painted-map.png)
 
 ## Firearms
 
@@ -19,3 +21,10 @@ A squad creation system before deployment uses a variety of packet update orders
 ## Screen Effects
 
 I took advantage of the client-side implementation of GLSL shaders within resource packs. Utilizing GameTime & detectable server-side parameters, the vignette upon taking damage is animated and optimized to maintain performance. Creating this code within shader pipelines helped me better understand how massively parallel, per-pixel operations are structured and optimized.
+
+<iframe width="460" height="315" src="https://www.youtube.com/embed/uUrKWwJQe50?rel=0&modestbranding=1" 
+title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
+<iframe width="460" height="315" src="https://www.youtube.com/embed/M3xHyf7THW4?rel=0&modestbranding=1" 
+title="YouTube video player" frameborder="0" allowfullscreen rel=0></iframe>
+<iframe width="460" height="315" src="https://www.youtube.com/embed/k0wZm0jhGYg?rel=0&modestbranding=1" 
+title="YouTube video player" frameborder="0" allowfullscreen></iframe>

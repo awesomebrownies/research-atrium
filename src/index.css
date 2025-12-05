@@ -5,14 +5,21 @@ body {
 }
 
 @font-face {
-  font-family: 'Construction';
-  src: local('Construction'), url(./assets/fonts/OmbudsmanAlternate-6YvDq.otf) format('opentype');
+  font-family: 'Jetbrains';
+  src: local('Jetbrains'), url(./assets/fonts/JetBrainsMonoNL-Regular.ttf) format('woff2');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
 @font-face {
-  font-family: 'Jetbrains';
-  src: local('Jetbrains'), url(./assets/fonts/JetBrainsMonoNL-Regular.ttf) format('woff2');
+  font-family: 'OpenSans';
+  src: local('OpenSans'), url(./assets/fonts/OpenSans-Regular.ttf) format('woff2');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: local('Merriweather'), url(./assets/fonts/Merriweather.ttf) format('woff2');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }

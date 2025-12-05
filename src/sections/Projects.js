@@ -2,6 +2,7 @@ import '../App.css';
 import '../index.css';
 import MarkdownComponent from './MarkdownComponent';
 import rehypeSlug from 'rehype-slug';
+import rehypeRaw from 'rehype-raw';
 
 import MinecraftLogo from '../assets/images/minecraft_logo.png';
 
@@ -43,9 +44,9 @@ const renderItem = (item) => {
             </div>
 
             <div className="app-divider" />
-            <p className="project-body">
-                <MarkdownComponent rehypePlugins={[rehypeSlug]} fileName={item.fileName}/>
-            </p>
+            <div className="project-body">
+                <MarkdownComponent rehypePlugins={[rehypeSlug, rehypeRaw]} fileName={item.fileName}/>
+            </div>
         </div>
         </div>
     )

@@ -78,8 +78,30 @@
   color: #E0E0E0;
   padding-left: max(35px, 5vw);
   padding-right: 5vw;
+}
+
+.project-body h2 { 
+  padding-top: 1rem; 
+  font-weight: normal; 
+  font-family: OpenSans; 
+}
+
+/* REEL: any paragraph containing only images becomes a scroll strip */
+.project-body p:has(img) {
   display: flex;
-  flex-direction: row;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  justify-content: center;
+}
+
+
+/* Images inside reel */
+.project-body p:has(img) img {
+  flex: 0 0 auto;
+  height: 400px;
+  object-fit: cover;
+  scroll-snap-align: start;
 }
 
 .search {
