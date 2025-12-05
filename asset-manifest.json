@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/research-atrium/static/css/main.4eda7ad1.css",
-    "main.js": "/research-atrium/static/js/main.fb37fd61.js",
+    "main.js": "/research-atrium/static/js/main.27bdbd14.js",
     "static/media/Merriweather.ttf": "/research-atrium/static/media/Merriweather.22bd7c129c2ec0235599.ttf",
     "static/media/LinLibertine_RI.ttf": "/research-atrium/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
     "static/media/clouds.png": "/research-atrium/static/media/clouds.306341d0fc92d2604a77.png",
@@ -15,10 +15,10 @@
     "static/media/comparator.png": "/research-atrium/static/media/comparator.ba62e17f97a572d261e4.png",
     "index.html": "/research-atrium/index.html",
     "main.4eda7ad1.css.map": "/research-atrium/static/css/main.4eda7ad1.css.map",
-    "main.fb37fd61.js.map": "/research-atrium/static/js/main.fb37fd61.js.map"
+    "main.27bdbd14.js.map": "/research-atrium/static/js/main.27bdbd14.js.map"
   },
   "entrypoints": [
     "static/css/main.4eda7ad1.css",
-    "static/js/main.fb37fd61.js"
+    "static/js/main.27bdbd14.js"
   ]
 }
