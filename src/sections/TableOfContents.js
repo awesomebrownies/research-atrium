@@ -1,64 +1,14 @@
-import '../App.css';;
+import '../App.css';
 import '../index.css';
 
+import MarkdownComponent from './MarkdownComponent';
+
 const TableOfContents = () => {
-  const tocData = [
-    {
-      id: "server-side-mods",
-      number: "1",
-      title: "Server-Side Mods",
-      children: [
-        {
-          id: "infiltration",
-          number: "1.1",
-          title: "Infiltration",
-          children: [
-            {id: "firearms", number: "1.1.1", title: "Firearms"},
-            {id: "helicopters", number: "1.1.2", title: "Helicopters"},
-            {id: "spatial-interface", number: "1.1.3", title: "Spatial Interface"},
-            {id: "screen-effects", number: "1.1.4", title: "Screen Effects"}
-          ]
-        },
-        {
-          id: "project:-mtf",
-          number: "1.2",
-          title: "Project: MTF",
-          children: [
-            {id: "story", number: "1.2.1", title: "Story"}
-          ]
-        },
-        {
-          id: "Unsecured",
-          number: "1.3",
-          title: "Unsecured",
-          children: [
-            {id: "anomalies", number: "1.3.1", title: "Anomalies"},
-            {id: "map", number: "1.3.2", title: "Map"}
-          ]
-        }
-      ]
-    }
-  ]
-
-  const renderItem = (item) => (
-    <li>
-      <a href={`#${item.id}`} className="link">
-        <span className="number">{item.number}</span>
-        <span>{item.title}</span>
-      </a>
-      {item.children && (
-        <ul className="list">{item.children.map(renderItem)}</ul>
-      )}
-    </li>
-  );
-
   return (
-    <div>
-      <ul className="project-body list">
-        {tocData.map(renderItem)}
-      </ul>
+    <div className="project-body list">
+      <MarkdownComponent fileName={"table-of-contents.md"}/>
     </div>
   );
 }
 
-export default TableOfContents;
+export default TableOfContents; 

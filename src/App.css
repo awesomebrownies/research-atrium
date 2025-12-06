@@ -123,6 +123,17 @@
   scroll-snap-align: start;
 }
 
+.project-body a {
+  color: #1e90ff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+.project-body a:hover {
+  text-decoration: underline;
+}
+.project-body a:visited {
+  color: #1b7fe4;
+}
+
 .search {
   height: 1vw;
   padding-left: 10vw;
@@ -139,17 +150,6 @@
   list-style-type: none;
   text-align: left;
   background-color: #171a1e;
-}
-
-.link {
-  color: #1e90ff; /* Link color */
-  text-decoration: none; /* Remove underline */
-}
-.link:hover {
-  text-decoration: underline;
-}
-.link:visited {
-  color: #1b7fe4;
 }
 
 .app {

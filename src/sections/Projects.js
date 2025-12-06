@@ -80,7 +80,7 @@ const Projects = () => {
         <div>
         <div className="project-header-row">
         <img src={Antenna} className="minecraft-logo" />
-        <div id="Embedded_Systems" className="section-heading">Embedded Systems</div>
+        <div id="embedded-systems" className="section-heading">Embedded Systems</div>
         </div>
 
         {esProjectsData.map(renderItem)}
