@@ -108,6 +108,12 @@
   justify-content: center;
 }
 
+.youtube-frame {
+  max-width: 500px;
+  aspect-ratio: 16/9; /* keeps proper video proportions */
+  border: none;
+}
+
 
 /* Images inside reel */
 .project-body p:has(img) img {
