@@ -6,11 +6,11 @@ The game splits players into groups of squads sub-divided into fireteams. Squad 
 
 ## Firearms
 
-The system relies real-time projectile calculations using asynchronous threads. The advantage of such a system is timings for gunfire and hit detection are not limited by the default 20-tick main thread. In addition, hitbox calculations are latency compensated and integrated directly into the Raycast API.
+The system relies on real-time projectile calculations using asynchronous threads. The advantage of such a system is timings for gunfire and hit detection are not limited by the default 20-tick main thread. In addition, hitbox calculations are latency compensated and integrated directly into the Raycast API.
 
 ## Helicopters
 
-Due to the highly rotational nature of the vehicle, Quaternions were used to track current position - Taking advantage of the mathematical representation, it allowed me to easily transform local offset vectors to absolute coordinates with respect to rotation.
+Due to the highly rotational nature of the vehicle, quaternions were used to track current position - Taking advantage of the mathematical representation, it allowed me to easily transform local offset vectors to absolute coordinates with respect to rotation.
 
 ## Spatial Interface
 
