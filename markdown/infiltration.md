@@ -22,9 +22,9 @@ A squad creation system before deployment uses a variety of packet update orders
 
 I took advantage of the client-side implementation of GLSL shaders within resource packs. Utilizing GameTime & detectable server-side parameters, the vignette upon taking damage is animated and optimized to maintain performance. Creating this code within shader pipelines helped me better understand how massively parallel, per-pixel operations are structured and optimized.
 
-<iframe width="460" height="315" src="https://www.youtube.com/embed/uUrKWwJQe50?rel=0&modestbranding=1" 
-title="YouTube video player" frameborder="0" allowfullscreen></iframe> 
-<iframe width="460" height="315" src="https://www.youtube.com/embed/M3xHyf7THW4?rel=0&modestbranding=1" 
+<iframe class="youtube-frame" width="100%" src="https://www.youtube.com/embed/uUrKWwJQe50?rel=0&modestbranding=1" style="min-width=500px;" 
+title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+<iframe class="youtube-frame" width="100%" src="https://www.youtube.com/embed/M3xHyf7THW4?rel=0&modestbranding=1"
 title="YouTube video player" frameborder="0" allowfullscreen rel=0></iframe>
-<iframe width="460" height="315" src="https://www.youtube.com/embed/k0wZm0jhGYg?rel=0&modestbranding=1" 
+<iframe class="youtube-frame" width="100%" src="https://www.youtube.com/embed/k0wZm0jhGYg?rel=0&modestbranding=1"
 title="YouTube video player" frameborder="0" allowfullscreen></iframe>
