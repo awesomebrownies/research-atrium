@@ -15,7 +15,7 @@ class App extends Component {
           <Cover/>
           <div className="parallax-projects app-projects"> 
             <div className="header">
-              <div className="header-inside vertical-text">
+              <div className="header-inside">
                 EVAN BROWN
               </div>
             </div>

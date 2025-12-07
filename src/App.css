@@ -8,8 +8,18 @@
 }
 
 .header-inside{
-    margin-right: -8px;
+  position: absolute;
+  height: 300px; 
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: -8px;
+  font-size: 20px;
+  font-family: Jetbrains;
+  color: gray;
+  align-content: flex-end;
+  padding-top: 8px;
 }
+
 
 
 .project-section {
@@ -260,6 +270,7 @@
   align-items: center;
   background-image: linear-gradient(#7ba3d8, #ffffff);
   height: 50vh;
+  height: 50svh;
 }
 
 .parallax-far,
@@ -267,6 +278,7 @@
   position: fixed;
   width: 100%;
   top: 50vh;
+  top: 50svh;
 }
 .parallax-far { z-index: 2; }
 .parallax-back { z-index: 3; }
@@ -278,20 +290,24 @@
   display: flex;
   justify-content: center;
   top: 60vh;
+  top: 50svh;
 }
 .parallax-mid { z-index: 4; }
 .parallax-close { z-index: 5; }
 
 .parallax-base {
-  position: relative;
+  position: absolute;
   width: 100%;
   top: 40vh;
   z-index: 6;
-  transform: translateY(102px);
+  display: flex;
+  transform: translateY(-98px);
+  overflow: hidden;
 }
 
 .parallax-projects {
   margin-top: 40vh;
+  margin-top: 40svh;
   z-index: 7;
 }
 
@@ -319,7 +335,6 @@
 .rocks-img {
   width: 2000px;
   height: 100px;
-  transform: translateY(-98px);
 }
 
 .project-header-row {
