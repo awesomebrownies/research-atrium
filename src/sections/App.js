@@ -18,6 +18,11 @@ class App extends Component {
             <Projects/>
             <Footer/>
           </div>
+          <div className="header">
+            <div className="header-inside vertical-text">
+              EVAN BROWN
+            </div>
+          </div>
       </div>
     );
   }

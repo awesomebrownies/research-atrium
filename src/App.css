@@ -1,8 +1,16 @@
-.name {
-  height: auto;
-  width: 90%;
-  max-width: 472.5px;
-  padding-top: 5vh;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
+  position: fixed;
+  font-family: Jetbrains;
+  z-index: 8;
+}
+
+.header-inside{
+    margin-right: -8px;
+    margin-top: 45vh;
 }
 
 

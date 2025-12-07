@@ -31,7 +31,7 @@ const Cover = () => {
         </div>
 
         <div className="parallax-close">
-        <Parallax speed={-0.9}>
+        <Parallax speed={-0.8}>
             <img src={MountainForeground} className="mountain-foreground" />
         </Parallax>
         </div>
