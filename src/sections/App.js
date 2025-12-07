@@ -14,14 +14,14 @@ class App extends Component {
       <div className="app">
           <Cover/>
           <div className="parallax-projects app-projects"> 
+            <div className="header">
+              <div className="header-inside vertical-text">
+                EVAN BROWN
+              </div>
+            </div>
             <TableOfContents/>
             <Projects/>
             <Footer/>
-          </div>
-          <div className="header">
-            <div className="header-inside vertical-text">
-              EVAN BROWN
-            </div>
           </div>
       </div>
     );

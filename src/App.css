@@ -1,16 +1,14 @@
 .header {
+  position: sticky;
+  top: 0;
+  right: 0;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  width: 100vw;
-  position: fixed;
-  font-family: Jetbrains;
   z-index: 8;
 }
 
 .header-inside{
     margin-right: -8px;
-    margin-top: 45vh;
 }
 
 
@@ -165,7 +163,6 @@
   flex-direction: column;
   background-color: #262c30;
   text-align: center;
-  overflow: hidden;
 }
 
 .app-flag-on-mountain {
@@ -269,7 +266,7 @@
 .parallax-back {
   position: fixed;
   width: 100%;
-  padding-top: 50vh;
+  top: 50vh;
 }
 .parallax-far { z-index: 2; }
 .parallax-back { z-index: 3; }
@@ -277,26 +274,24 @@
 .parallax-mid,
 .parallax-close {
   position: fixed;
-  overflow: hidden;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 60vh;
+  top: 60vh;
 }
 .parallax-mid { z-index: 4; }
 .parallax-close { z-index: 5; }
 
 .parallax-base {
-  position: absolute;
-  overflow: hidden;
+  position: relative;
   width: 100%;
-  padding-top: 50vh;
+  top: 40vh;
   z-index: 6;
+  transform: translateY(102px);
 }
 
 .parallax-projects {
-  position: absolute;
-  margin-top: 50vh;
+  margin-top: 40vh;
   z-index: 7;
 }
 
