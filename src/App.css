@@ -103,10 +103,22 @@
   padding: 3px;
 }
 
+.introduction-format {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.introduction {
+  max-width: 25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .project-body {
   color: #E0E0E0;
   padding-left: max(35px, 5vw);
-  padding-right: 5vw;
+  padding-right: max(35px, 5vw);
 }
 
 .project-body h2 { 
@@ -134,7 +146,9 @@
 /* Images inside reel */
 .project-body p:has(img) img {
   flex: 0 0 auto;
-  height: 400px;
+  width: 100%;
+  min-width: 280px;
+  max-width: 500px;
   object-fit: cover;
   scroll-snap-align: start;
 }
@@ -311,25 +325,27 @@
   z-index: 7;
 }
 
-.clouds { display: flex; overflow: hidden; justify-self: center; width: 3000px; height: 400px; }
-.clouds-1 { transform: translateX(-400px) translateY(-350px); filter: invert (100%) sepia(); }
-.clouds-2 { transform: translateX(-600px) translateY(-200px); filter: invert(10%) sepia(); }
+.clouds { display: flex; overflow: hidden; justify-self: center; height: auto; }
+.clouds-1 { transform: translateX(-400px) translateY(-350px); width: 2000px; filter: invert (100%) sepia(); }
+.clouds-2 { transform: translateX(-600px) translateY(-350px); width: 3000px; filter: invert(10%) sepia(); }
+
+.balloon {
+  transform: translateY(500px); width: 500px; height: auto;
+}
 
 .flag-on-mountain {
   width: 120vw;
-  height: 120vw;
+  height: auto;
   max-width: 581.57px;
-  max-height: 600px;
-  transform: translateY(max(-119vw, -595px));
+  transform: translateY(max(-119vw, -550px));
 }
 
 .mountain-foreground {
   width: 120vw;
-  height: 120vw;
+  height: auto;
   max-width: 581.57px;
-  max-height: 600px;
   filter: brightness(75%);
-  transform: translateY(max(-119vw, -595px));
+  transform: translateY(max(-119vw, -585px));
 }
 
 .rocks-img {
