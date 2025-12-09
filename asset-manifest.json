@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/research-atrium/static/css/main.5e301ca7.css",
+    "main.css": "/research-atrium/static/css/main.3f6f50c1.css",
     "main.js": "/research-atrium/static/js/main.41a759e4.js",
     "static/media/Merriweather.ttf": "/research-atrium/static/media/Merriweather.22bd7c129c2ec0235599.ttf",
     "static/media/LinLibertine_RI.ttf": "/research-atrium/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
@@ -14,11 +14,11 @@
     "static/media/copper-golem.png": "/research-atrium/static/media/copper-golem.3dec1c2c5d9cfedb7cf6.png",
     "static/media/comparator.png": "/research-atrium/static/media/comparator.ba62e17f97a572d261e4.png",
     "index.html": "/research-atrium/index.html",
-    "main.5e301ca7.css.map": "/research-atrium/static/css/main.5e301ca7.css.map",
+    "main.3f6f50c1.css.map": "/research-atrium/static/css/main.3f6f50c1.css.map",
     "main.41a759e4.js.map": "/research-atrium/static/js/main.41a759e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e301ca7.css",
+    "static/css/main.3f6f50c1.css",
     "static/js/main.41a759e4.js"
   ]
 }
