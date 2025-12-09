@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/research-atrium/static/css/main.99acaf23.css",
-    "main.js": "/research-atrium/static/js/main.41a759e4.js",
+    "main.css": "/research-atrium/static/css/main.6b1b40fa.css",
+    "main.js": "/research-atrium/static/js/main.dced83e8.js",
     "static/media/Merriweather.ttf": "/research-atrium/static/media/Merriweather.22bd7c129c2ec0235599.ttf",
     "static/media/LinLibertine_RI.ttf": "/research-atrium/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
-    "static/media/clouds.png": "/research-atrium/static/media/clouds.306341d0fc92d2604a77.png",
+    "static/media/clouds.png": "/research-atrium/static/media/clouds.c40b03cf11f1c4305133.png",
     "static/media/JetBrainsMonoNL-Regular.ttf": "/research-atrium/static/media/JetBrainsMonoNL-Regular.432a7b1048bd216e8990.ttf",
     "static/media/OpenSans-Regular.ttf": "/research-atrium/static/media/OpenSans-Regular.b5742f857779c0562634.ttf",
     "static/media/mountain-foreground.png": "/research-atrium/static/media/mountain-foreground.90869b9f3ee062377962.png",
@@ -14,11 +14,11 @@
     "static/media/copper-golem.png": "/research-atrium/static/media/copper-golem.3dec1c2c5d9cfedb7cf6.png",
     "static/media/comparator.png": "/research-atrium/static/media/comparator.ba62e17f97a572d261e4.png",
     "index.html": "/research-atrium/index.html",
-    "main.99acaf23.css.map": "/research-atrium/static/css/main.99acaf23.css.map",
-    "main.41a759e4.js.map": "/research-atrium/static/js/main.41a759e4.js.map"
+    "main.6b1b40fa.css.map": "/research-atrium/static/css/main.6b1b40fa.css.map",
+    "main.dced83e8.js.map": "/research-atrium/static/js/main.dced83e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.99acaf23.css",
-    "static/js/main.41a759e4.js"
+    "static/css/main.6b1b40fa.css",
+    "static/js/main.dced83e8.js"
   ]
 }
