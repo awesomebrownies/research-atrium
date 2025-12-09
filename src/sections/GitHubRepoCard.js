@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../RepoCard.css"; // <-- import CSS
+import "../RepoCard.css";
 
 export default function RepoCard({ owner, repo }) {
   const [r, setR] = useState(null);
