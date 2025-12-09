@@ -127,28 +127,33 @@
   font-family: OpenSans; 
 }
 
-/* REEL: any paragraph containing only images becomes a scroll strip */
-.project-body p:has(img) {
-  display: flex;
-  overflow-x: auto;
-  gap: 1rem;
-  scroll-snap-type: x mandatory;
-  justify-content: center;
-}
-
 .youtube-frame {
   max-width: 500px;
   aspect-ratio: 16/9; /* keeps proper video proportions */
   border: none;
 }
 
+/* Reel container */
+.project-body p:has(img) {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.5rem;
+  padding: 0;
+  scroll-snap-type: mandatory;
+}
 
-/* Images inside reel */
+/* Single image only */
+.project-body p:has(img):not(:has(img + img)) {
+  display: flex;
+  justify-content: center;
+}
+
+/* Reel images */
 .project-body p:has(img) img {
   flex: 0 0 auto;
-  width: 100%;
-  min-width: 280px;
+  width: 80vw;
   max-width: 500px;
+  height: auto;
   object-fit: cover;
   scroll-snap-align: start;
 }
