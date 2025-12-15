@@ -2,7 +2,7 @@
   "name": "research-atrium",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://awesomebrownies.github.io/research-atrium/",
+  "homepage": "http://brownevan.com",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
