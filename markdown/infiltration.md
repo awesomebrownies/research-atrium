@@ -2,7 +2,7 @@ A gamemode aimed to bring a tactical side to combat.
 
 The game splits players into groups of squads sub-divided into fireteams. Squad Leaders communicate with each other to coordinate attacks and hold positions in objectives. The system favors teamwork and will punish players who do not work together. Several alpha and beta tests have been conducted with player feedback being implemented into a roughly 2-week cycle while in active development.
 
-![Map of "Forest" inside Infiltration](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d76fc021ba0238788646551af94477cdd8625129_painted-map.png)
+![Map of "Forest" inside Infiltration](https://raw.githubusercontent.com/awesomebrownies/research-atrium/main/src/assets/images/body/infiltration/painted-map.png)
 
 ## Firearms
 
