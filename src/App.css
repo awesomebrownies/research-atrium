@@ -35,14 +35,14 @@
 }
 
 .project-section--copper-golem {
-  background-image: url('assets/images/copper-golem.png');
+  background-image: url('assets/images/background/copper-golem.png');
   background-repeat: repeat;
   background-position: top left;
 }
 
 .project-section--comparator {
 
-  background-image: url('assets/images/comparator.png');
+  background-image: url('assets/images/background/comparator.png');
   background-repeat: repeat;
   background-position: top left;
 }

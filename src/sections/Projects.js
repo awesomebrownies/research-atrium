@@ -4,8 +4,8 @@ import MarkdownComponent from './MarkdownComponent';
 import rehypeSlug from 'rehype-slug';
 import rehypeRaw from 'rehype-raw';
 
-import MinecraftLogo from '../assets/images/minecraft_logo.png';
-import Antenna from '../assets/images/antenna.jpg';
+import MinecraftLogo from '../assets/images/title/minecraft_logo.png';
+import Antenna from '../assets/images/title/antenna.jpg';
 
 import GitHubRepoCard from './GitHubRepoCard';
 

@@ -1,8 +1,8 @@
 import '../App.css';
-import FlagOnMountain from '../assets/images/flag-on-mountain.png';
-import MountainForeground from '../assets/images/mountain-foreground.png';
-import Clouds from '../assets/images/clouds.png';
-import Rocks from '../assets/images/foreground.png';
+import FlagOnMountain from '../assets/images/cover/flag-on-mountain.png';
+import MountainForeground from '../assets/images/cover/mountain-foreground.png';
+import Clouds from '../assets/images/cover/clouds.png';
+import Rocks from '../assets/images/cover/foreground.png';
 
 import '../index.css';
 
