@@ -12,8 +12,8 @@ Scene II: Multiple infected are eliminated as the operatives find the elevator s
 
 Scene III: The operatives locate the scientist, and have to escort it back while defending the scientist against the infected. At this point, more infected have surrounded them and they have to fight their way out.
 
-![1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f2127032d17a616ee12908cedece940783847096_2021-10-25_18.40.51.png)
-![2](https://hc-cdn.hel1.your-objectstorage.com/s/v3/17d92929ceae29ae5a0c7c2b38819d19c4686869_2021-10-25_21.22.22.png)
-![3](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0802630b79957bed89aef87b54664bcf831ae67e_2021-10-26_20.05.05.png)
-![4](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5edda16a397568ff3b845b076e8ca03fbf98533e_2021-11-13_18.46.58.png)
-![5](https://hc-cdn.hel1.your-objectstorage.com/s/v3/06fb4cbe12e404c3bf6e4aef1c3a735b07ab3ddf_projectmtfimage1.png)
+![1](https://raw.githubusercontent.com/awesomebrownies/research-atrium/main/src/assets/images/body/project-mtf/project-mtf-facility.png)
+![2](https://raw.githubusercontent.com/awesomebrownies/research-atrium/main/src/assets/images/body/project-mtf/project-mtf-outside.png)
+![3](https://raw.githubusercontent.com/awesomebrownies/research-atrium/main/src/assets/images/body/project-mtf/elevator.png)
+![4](https://raw.githubusercontent.com/awesomebrownies/research-atrium/main/src/assets/images/body/project-mtf/main-entrance.png)
+![5](https://raw.githubusercontent.com/awesomebrownies/research-atrium/main/src/assets/images/body/project-mtf/project-mtf.png)
